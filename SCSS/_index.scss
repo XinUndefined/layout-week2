@@ -1,0 +1,7 @@
+h1 {
+  font-size: 100px;
+  color: red;
+  & p {
+    width: 15px;
+  }
+}
