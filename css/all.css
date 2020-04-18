@@ -1,15 +1,6 @@
-// font h180 h264 p24 p20
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
 body {
   font-family: Roboto, sans-serif;
   font-style: italic;
-}
-img {
-  max-width: 100%;
 }
 .position-ab {
   position: absolute;
