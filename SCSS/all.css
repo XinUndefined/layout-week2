@@ -140,12 +140,149 @@ table {
   border-spacing: 0;
 }
 
-h1 {
-  font-size: 100px;
-  color: red;
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-h1 p {
-  width: 15px;
+body {
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+}
+
+img {
+  max-width: 100%;
+}
+
+.position-ab {
+  position: absolute;
+}
+
+.position-re {
+  position: relative;
+  top: -56px;
+}
+
+.list-style:before {
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 10px;
+  left: -35px;
+  border-radius: 50%;
+  background-color: #891818;
+}
+
+.text-border {
+  text-align: center;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #000;
+  width: 430px;
+}
+
+.flex-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.font-h1 {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.font-title {
+  font-size: 64px;
+  line-height: 84px;
+}
+
+.font-p-20 {
+  font-size: 20px;
+  line-height: 42px;
+  font-style: normal;
+  text-align: center;
+  font-weight: bold;
+}
+
+.font-p-24 {
+  font-size: 24px;
+  line-height: 42px;
+  font-weight: bold;
+}
+
+.text-color {
+  color: #ffffff;
+}
+
+.font-italic {
+  font-style: italic;
+}
+
+.bg-color {
+  background-color: #000;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.mb-23 {
+  margin-bottom: 23px;
+}
+
+.mb-27 {
+  margin-bottom: 27px;
+}
+
+.mb-31 {
+  margin-bottom: 31px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-48 {
+  margin-bottom: 48px;
+}
+
+.mb-56 {
+  margin-bottom: 56px;
+}
+
+.pt-56 {
+  padding-top: 56px;
+}
+
+.pb-80 {
+  padding-bottom: 80px;
+}
+
+.pb-160 {
+  padding-bottom: 160px;
+}
+
+.ml-16 {
+  margin-left: 16px;
+}
+
+.ml-24 {
+  margin-left: 24px;
 }
 /*# sourceMappingURL=all.css.map */
