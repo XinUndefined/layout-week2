@@ -25,6 +25,9 @@ body {
   border-bottom: 2px solid #000;
   width: 430px;
 }
+.d-flex {
+  display: flex;
+}
 .flex-column {
   flex-direction: column;
 }
@@ -32,6 +35,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.text-center {
+  text-align: center;
 }
 .font-h1 {
   font-size: 80px;
@@ -41,14 +47,14 @@ body {
   font-size: 64px;
   line-height: 84px;
 }
-.font-p-20 {
+.font-s {
   font-size: 20px;
   line-height: 42px;
   font-style: normal;
   text-align: center;
   font-weight: bold;
 }
-.font-p-24 {
+.font-m {
   font-size: 24px;
   line-height: 42px;
   font-weight: bold;
@@ -65,14 +71,11 @@ body {
 .mb-16 {
   margin-bottom: 16px;
 }
-.mb-23 {
-  margin-bottom: 23px;
+.mb-24 {
+  margin-bottom: 24px;
 }
-.mb-27 {
-  margin-bottom: 27px;
-}
-.mb-31 {
-  margin-bottom: 31px;
+.mb-32 {
+  margin-bottom: 32px;
 }
 .mb-40 {
   margin-bottom: 40px;
@@ -83,18 +86,22 @@ body {
 .mb-56 {
   margin-bottom: 56px;
 }
-.pt-56 {
-  padding-top: 56px;
-}
-.pb-80 {
-  padding-bottom: 80px;
-}
-.pb-160 {
-  padding-bottom: 160px;
+.mb-64 {
+  margin-bottom: 64px;
 }
 .ml-16 {
   margin-left: 16px;
 }
 .ml-24 {
   margin-left: 24px;
+}
+/* 留白 */
+.pt-64 {
+  padding-top: 64px;
+}
+.pb-80 {
+  padding-bottom: 80px;
+}
+.pb-160 {
+  padding-bottom: 160px;
 }
