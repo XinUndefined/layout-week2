@@ -2,6 +2,11 @@ body {
   font-family: Roboto, sans-serif;
   font-style: italic;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 .position-ab {
   position: absolute;
 }
@@ -20,7 +25,6 @@ body {
   background-color: #891818;
 }
 .text-border {
-  text-align: center;
   padding-bottom: 30px;
   border-bottom: 2px solid #000;
   width: 430px;
